@@ -15,4 +15,3 @@ function App() {
 export default App
 
 
-//PAREI NO MINUTO 28:16
