@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /*  Espaçamento entre os itens*/
+  align-items: center; /* Alinhamento dos itens*/
+  padding: 0.5rem 1rem;
+  background-color: #121212;
+}
+.navbar h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navbar input {
+  padding: .2rem .8rem; /*espaçamento interno com os pontos significando que o primeiro valor é para cima e o segundo para baixo*/
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  
+}
+.navbar input:focus {
+  outline: none;
+}
+
+button {
+  width: 3em;
+  height: 3em;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  left: -0.6em;
+  overflow: hidden;
+  z-index: 1;
+}
+
+button:hover{
+  background-color: rgb(189, 189, 189);
+  cursor:pointer;
+}
