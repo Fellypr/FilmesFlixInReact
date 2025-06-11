@@ -1,14 +1,14 @@
 *{
     overflow-x: hidden;
 }
-
-.description p{
-    overflow-x:hidden ;
-    overflow-wrap: break-word;
-    width: 800px;
-    word-break: break-word;
+.moviePage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
-
 .imgmovie img{
     width: 300px;
     height: 400px;
@@ -16,32 +16,40 @@
     border: 2px;
     border-radius: 43px;
 }
-.info{
-    position: relative;
-    left: 23em;
-    top: -15.6em;
+.imgmovie{
+  height: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 1rem;
 }
-.description{
-    position: relative;
-    left: 23em;
-    top: -33em;
-    flex-wrap: wrap;
+.InformationMovie{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 20px;
+    gap: 1rem;
 }
-.receita{
-    position: relative;
-    left: 23rem;
-    top: -14.6em;
+.description p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
 }
-.Duração{
-    position: relative;
-    left: 23rem;
-    top: -13.6em;
+@media screen and (max-width: 800px) {
+  .description p{
+    text-align: center;
+  }
+  
 }
-.tagline{
-    position: relative;
-    left: 4em;
-    top: 14px;
-}
+
 
 
 
